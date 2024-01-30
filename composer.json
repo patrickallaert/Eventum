@@ -1,0 +1,19 @@
+{
+    "name": "hr-rail/demo-api",
+    "description": "Demo DB API",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "php": "^8.3",
+        "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Eventum\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phan/phan": "*",
+        "friendsofphp/php-cs-fixer": "*"
+    }
+}

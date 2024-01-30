@@ -1,0 +1,6 @@
+.php-cs-fixer.cache
+
+vendor
+
+var/data/xml/*
+!var/data/xml/.keep
